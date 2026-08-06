@@ -25,27 +25,28 @@ img{display:block;user-select:none;-webkit-user-drag:none}
 .swan-wrap img{position:static;width:min(74vw,440px);filter:drop-shadow(0 14px 20px rgba(90,70,50,.10))}
 #sun{width:min(30vw,190px)}#moon{width:min(26vw,168px)}
 
-.sec{position:relative;padding:13vh 8vw;max-width:720px;margin:0 auto;text-align:center}
+/* wider content, smaller side margins */
+.sec{position:relative;padding:12vh 6vw;max-width:900px;margin:0 auto;text-align:center}
 .reveal{opacity:0;transform:translateY(26px)}
 .sec h3{font-family:'Special Elite',monospace;font-weight:400;font-size:clamp(1.25rem,5vw,1.7rem);letter-spacing:.06em;margin-bottom:1.1rem}
-.body-lg{font-size:clamp(1.02rem,3.7vw,1.18rem);line-height:1.78;max-width:34ch;margin:0 auto;}
+.body-lg{font-size:clamp(1.02rem,3.7vw,1.18rem);line-height:1.78;max-width:46ch;margin:0 auto;}
 
 .announce .names{font-family:'Special Elite',monospace;font-weight:400;font-size:clamp(1.9rem,7.5vw,3.1rem);line-height:1.2;}
 .announce .amp{color:var(--sun)}
 .announce .names .n,.announce .names .amp{display:block}.announce .names .amp{margin:.15em 0}
 @media(min-width:1024px){.announce .names .n,.announce .names .amp{display:inline}.announce .names .amp{margin:0 .25em}}
 .announce .tagline{display:block;margin-top:1.2rem;color:var(--moon);font-size:clamp(1.02rem,4.2vw,1.35rem);letter-spacing:.02em}
-.bow-divider{width:min(58vw,250px);margin:5vh auto 0;opacity:.92}
+.bow-divider{width:min(52vw,270px);margin:5vh auto 0;opacity:.92}
 
 .photo-frame{aspect-ratio:4/3;border:1.5px solid var(--rule);background:rgba(255,255,255,.35);display:flex;align-items:center;justify-content:center;color:var(--ink-soft);text-align:center;font-family:'Special Elite',monospace;letter-spacing:.22em;text-transform:uppercase;font-size:.7rem;overflow:hidden}
 .photo-frame img{width:100%;height:100%;object-fit:cover}
 .photo-grid{display:grid;grid-template-columns:1fr 1fr;gap:3vw}
 @media(max-width:560px){.photo-grid{grid-template-columns:1fr;gap:4vw}}
 
-.voyage-illo{width:min(56vw,230px);margin:0 auto 2.4rem}
+.voyage-illo{width:min(52vw,240px);margin:0 auto 2.4rem}
 
-.details{padding-left:9vw;padding-right:9vw}
-.ticket{--sc:11px;position:relative;background:var(--ticket);max-width:400px;margin:0 auto;text-align:center;filter:drop-shadow(0 14px 30px rgba(90,70,50,.16));
+.details{padding-left:5vw;padding-right:5vw}
+.ticket{--sc:11px;position:relative;background:var(--ticket);max-width:440px;margin:0 auto;text-align:center;filter:drop-shadow(0 14px 30px rgba(90,70,50,.16));
   -webkit-mask:radial-gradient(var(--sc) at 50% 0,#0000 99%,#000) 50% 0/calc(2*var(--sc)) 50.5% repeat-x,radial-gradient(var(--sc) at 50% 100%,#0000 99%,#000) 50% 100%/calc(2*var(--sc)) 50.5% repeat-x;
           mask:radial-gradient(var(--sc) at 50% 0,#0000 99%,#000) 50% 0/calc(2*var(--sc)) 50.5% repeat-x,radial-gradient(var(--sc) at 50% 100%,#0000 99%,#000) 50% 100%/calc(2*var(--sc)) 50.5% repeat-x;}
 .tk-inner{position:relative;padding:3rem 1.9rem 1.8rem}
@@ -59,7 +60,7 @@ img{display:block;user-select:none;-webkit-user-drag:none}
 .tk-row{margin-bottom:.85rem}
 .tk-row .lbl{font-family:'Special Elite',monospace;text-transform:uppercase;letter-spacing:.1em;font-size:.6rem;color:var(--ink-soft)}
 .tk-rows a{color:var(--moon);text-decoration:none;border-bottom:1px solid var(--rule)}
-.tk-note{font-size:.74rem;color:var(--ink-soft);font-style:italic;line-height:1.5;max-width:32ch;margin:0 auto}
+.tk-note{font-size:.74rem;color:var(--ink-soft);font-style:italic;line-height:1.5;max-width:34ch;margin:0 auto}
 .perf{position:relative;height:0;border-top:2px dashed var(--rule)}
 .perf::before,.perf::after{content:"";position:absolute;top:-10px;width:20px;height:20px;border-radius:50%;background:var(--paper)}
 .perf::before{left:-10px}.perf::after{right:-10px}
@@ -70,20 +71,20 @@ img{display:block;user-select:none;-webkit-user-drag:none}
 .dress{padding-top:26vh;padding-bottom:26vh}
 .dress .swans{display:flex;justify-content:center;align-items:flex-end;gap:3vw;margin-bottom:1.6rem}
 .dress .swans img{width:min(32vw,172px)}.dress .swans img.blk{width:min(29vw,156px)}
-.dress p{max-width:34ch;margin:0 auto}.dress .em{color:var(--sun)}
+.dress p{max-width:44ch;margin:0 auto}.dress .em{color:var(--sun)}
 
 .registry .heart-stamp{width:62px;margin:0 auto 1.2rem}
-.registry p{max-width:32ch;margin:0 auto 2rem;color:var(--ink-soft);font-size:.95rem}
+.registry p{max-width:42ch;margin:0 auto 2rem;color:var(--ink-soft);font-size:.95rem}
 
 .btn{display:inline-block;font-family:'Special Elite',monospace;letter-spacing:.22em;text-transform:uppercase;font-size:.8rem;text-decoration:none;padding:1rem 2.4rem;cursor:pointer;transition:transform .2s ease,background .2s ease,color .2s ease;}
 .btn-solid{color:var(--paper);background:var(--ink);border:1.5px solid var(--ink)}
 .btn-solid:hover,.btn-solid:focus-visible{background:var(--sun);border-color:var(--sun);transform:translateY(-2px)}
 
-.rsvp-sec{padding:13vh 8vw 14vh;max-width:520px;margin:0 auto;text-align:center}
-.cherry-illo{width:66px;margin:0 auto 1.8rem}
+.rsvp-sec{padding:12vh 6vw 14vh;max-width:640px;margin:0 auto;text-align:center}
+.cherry-illo{width:66px;margin:0 auto 1.4rem}
 .rsvp-sec h2{font-family:'Special Elite',monospace;font-weight:400;letter-spacing:.14em;font-size:clamp(1.6rem,6vw,2.1rem);margin-bottom:1rem}
-.rsvp-sec .sub{font-size:.92rem;color:var(--ink-soft);margin:0 auto 3rem;max-width:40ch}
-.rsvp-form{text-align:left}.rsvp-form .field{margin-bottom:2rem}
+.rsvp-sec .sub{font-size:.92rem;color:var(--ink-soft);margin:0 auto 3rem;max-width:48ch}
+.rsvp-form{text-align:left;max-width:460px;margin:0 auto}.rsvp-form .field{margin-bottom:2rem}
 .rsvp-form .q{display:block;font-family:'Special Elite',monospace;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:.7rem}
 .rsvp-form input[type=text]{width:100%;padding:.55rem .1rem;border:none;border-bottom:1.5px solid var(--rule);background:transparent;font-family:'Courier Prime',monospace;font-size:1rem;color:var(--ink)}
 .rsvp-form input:focus{outline:none;border-bottom-color:var(--sun)}
@@ -109,7 +110,7 @@ img{display:block;user-select:none;-webkit-user-drag:none}
 @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
 .water{position:absolute;left:0;right:0;bottom:26%;height:1px;background:linear-gradient(90deg,transparent,var(--rule),transparent);opacity:.6}
 
-.foot{text-align:center;padding:4vh 8vw 15vh}
+.foot{text-align:center;padding:4vh 6vw 15vh}
 .foot .names{font-family:'Special Elite',monospace;font-size:clamp(1.4rem,6vw,2.1rem);margin-bottom:.5rem}
 .foot .date{letter-spacing:.34em;font-size:.9rem;color:var(--ink-soft)}.foot .amp{color:var(--sun)}
 
