@@ -12,14 +12,14 @@ const dots = document.querySelectorAll('#dots button');
 
 const io = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
-    const visible = entry.isIntersecting && entry.intersectionRatio > 0.5;
-    entry.target.classList.toggle('in-view', visible);
-    if (visible) {
+    if (entry.isIntersecting) {
+      // fade in once, then stay visible — never fades back out on scroll-past
+      entry.target.classList.add('in-view');
       const id = entry.target.id;
       dots.forEach(d => d.classList.toggle('active', d.dataset.target === id));
     }
   });
-}, { threshold: [0, 0.5, 1] });
+}, { threshold: 0.35 });
 
 sections.forEach(s => io.observe(s));
 
