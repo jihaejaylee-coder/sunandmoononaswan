@@ -502,10 +502,6 @@ form#rsvp-form { width: 100%; max-width: 300px; margin: 0 auto; text-align: cent
 .names-final { font-size: 1.9rem; }
 .artwork-credit { font-size: .42rem; color: var(--ink-soft); opacity: .7; margin-top: 5vh; white-space: nowrap; letter-spacing: 0.02em; }
 
-@media (prefers-reduced-motion: reduce) {
-  * { animation: none !important; transition: none !important; }
-}
-
 @media (min-width: 720px) {
   .section-inner { max-width: 520px; }
 }
