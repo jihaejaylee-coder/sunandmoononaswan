@@ -272,8 +272,8 @@ body {
   background: rgba(95, 159, 187, 0.14);
   border-color: rgba(95, 159, 187, 0.5);
 }
-.board-hit { left: 10%; top: 43%; width: 80%; height: 10%; }
-.parking-hit { left: 8%; top: 54.3%; width: 84%; height: 6%; }
+.board-hit { left: 10%; top: 45.3%; width: 80%; height: 7.8%; }
+.parking-hit { left: 10%; top: 56.6%; width: 80%; height: 3.9%; }
 
 /* ================= PAGE 5 — SWAN ATTIRE ================= */
 .swans-row {
